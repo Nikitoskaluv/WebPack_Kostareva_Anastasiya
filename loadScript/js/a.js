@@ -1,0 +1,1 @@
+loadScript('./js/b.js', () => console.log('A.callback'));

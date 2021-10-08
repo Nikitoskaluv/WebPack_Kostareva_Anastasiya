@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор дат</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <form id="formSwitch">
+        <label>Калькулятор дат
+            <input type="radio" name="switcher" value="calc" checked>
+        </label>
+        <label>Таймер
+            <input type="radio" name="switcher" value="timer">
+        </label>
+    </form>
+
+    <div class="calc">
+        <form id="calcDate">
+            <h1>Калькулятор дат</h1>
+            <div class="calculatorContainer">
+                <label>
+                    <strong>Первая дата:</strong>
+                    <input type="date" name="firstDate">
+                </label>
+                <label>
+                    <strong>Вторая дата:</strong>
+                    <input type="date" name="secondDate">
+                </label>
+                <p id="result"></p>
+                <div class="btnsArea">
+                    <button class="submitBtn" type="submit">Рассчитать промежуток</button>
+                </div>
+            </div>
+        </form>
+        <img src="./img/calendar.png" alt="img">
+    </div>
+    <div class="timer">
+        <h1>Таймер</h1>
+        <div class="timerContainer">
+            <p id="message"></p>
+            <p id="timerArea">00:00</p>
+            <input type="text" id="inputTimer" placeholder="введите время">
+            <div class="btnsArea">
+                <div class="upperBtnsArea">
+                    <button id="startBtn">Start</button>
+                    <button id="refreshBtn">Refresh</button>
+                </div>
+                <div class="lowerBtnsArea">
+                    <button id="pauseBtn">Pause</button>
+                    <button id="resumeBtn">Resume</button>
+                </div>
+            </div>
+        </div>
+        <img src="./img/stopwatch.png">
+    </div>
+</body>
+
+</html>

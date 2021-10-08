@@ -1,0 +1,50 @@
+.calculatorContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 20px;
+}
+#inputTimer{
+    margin-bottom: 20px;
+}
+#timerArea{
+    font-size: 50px;
+}
+.btnsArea{
+    width: 14%;
+}
+
+.switchBtn,
+.submitBtn{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.lowerBtnsArea,
+.upperBtnsArea
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pauseBtn,
+#resumeBtn,
+#refreshBtn,
+#startBtn
+{
+    width: 48%;
+    margin-bottom: 20px;
+    
+}
+.calc{
+    display: block;
+}
+.timer{
+    display: none;
+}
+#refreshBtn,
+#resumeBtn{
+    display: none;
+}
