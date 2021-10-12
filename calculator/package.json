@@ -5,8 +5,7 @@
   "main": "webpack.config.js",
   "dependencies": {
     "howler": "^2.2.3",
-    "luxon": "^2.0.2",
-    "vue-style-loader": "^4.1.3"
+    "luxon": "^2.0.2"
   },
   "devDependencies": {
     "css-loader": "^6.3.0",
