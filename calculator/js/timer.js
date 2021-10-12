@@ -47,7 +47,7 @@ function countdown() {
         printOutput("<strong>Время вышло!</strong>", messageArea);
         clearInterval(interval);
         let sound = new Howl({
-            src: ['sounds/bell.mp3']
+            src: ['./sounds/bell.mp3']
         });
         sound.play();
         refreshTimer();

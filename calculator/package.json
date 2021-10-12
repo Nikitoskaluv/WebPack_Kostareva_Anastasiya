@@ -27,8 +27,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run cleanup && webpack --mode=development",
     "build": "npm run cleanup && webpack --mode=production",
-    "cleanup": "rm -rf dist/*"
-    
+    "cleanup": "rm -rf dist/*",
+    "start": "webpack serve --mode=development"
   },
   "author": "",
   "license": "ISC"
